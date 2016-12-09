@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "pretest": "npm run build",
-    "test": "alsatian \"**/*.spec.js\""
+    "test": "alsatian \"**/*.spec.js\"",
+    "prepublish": "npm test"
   },
   "repository": {
     "type": "git",
