@@ -6,7 +6,8 @@
   "typings": "src/extendo-error.d.ts",
   "scripts": {
     "build": "tsc",
-    "pretest": "npm run build",
+    "review": "tslint \"./**/*.ts\" --exclude \"./**/*.d.ts\" --exclude \"./node_modules/**/*.ts\"",
+    "pretest": "npm run review && npm run build",
     "test": "alsatian \"**/*.spec.js\"",
     "prepublish": "npm test"
   },
