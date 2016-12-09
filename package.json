@@ -1,0 +1,35 @@
+{
+  "name": "extendo-error",
+  "version": "1.0.0",
+  "description": "Safely and simply extend native Error with prototype chaining support",
+  "main": "src/extendo-error.js",
+  "scripts": {
+    "build": "tsc",
+    "pretest": "npm run build",
+    "test": "alsatian \"**/*.spec.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesrichford/extendo-error.git"
+  },
+  "keywords": [
+    "extendo",
+    "error",
+    "extendable",
+    "typescript",
+    "prototype",
+    "chaining",
+    "extend error",
+    "instanceof"
+  ],
+  "author": "James Richford",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesrichford/extendo-error/issues"
+  },
+  "homepage": "https://github.com/jamesrichford/extendo-error#readme",
+  "devDependencies": {
+    "alsatian": "^1.0.0-beta.4",
+    "typescript": "^2.1.4"
+  }
+}
