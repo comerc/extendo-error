@@ -1,6 +1,7 @@
-import { Expect, TestCase, Test } from "alsatian";
+import { Expect, TestCase, Test, TestFixture } from "alsatian";
 import ExtendoError from "../../src/extendo-error";
 
+@TestFixture("ExtendoError.message tests")
 export class MessageTests {
 
     @TestCase(null)

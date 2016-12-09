@@ -1,7 +1,8 @@
-import { Expect, Test } from "alsatian";
+import { Expect, Test, TestFixture } from "alsatian";
 import { ChildError, GrandChildError } from "../errors";
 
-export default class ChildErrorTests {
+@TestFixture("extending an extended error")
+export default class GrandChildErrorTests {
 
     @Test("is instance of Error")
     public grandChildErrorIsInstanceOfError() {
