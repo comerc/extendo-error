@@ -1,5 +1,5 @@
 import { Expect, Test } from "alsatian";
-import { ChildError, AnotherChildError } from "../test-errors";
+import { ChildError, AnotherChildError } from "../errors";
 
 export default class ChildErrorTests {
 

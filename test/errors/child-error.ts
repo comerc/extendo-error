@@ -1,4 +1,4 @@
-import ExtendoError from "../src/extendo-error";
+import ExtendoError from "../../src/extendo-error";
 
 export default class ChildError extends ExtendoError {
     public get theAnswer(): number {

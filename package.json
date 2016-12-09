@@ -7,8 +7,9 @@
   "scripts": {
     "build": "tsc",
     "review": "tslint \"./**/*.ts\" --exclude \"./**/*.d.ts\" --exclude \"./node_modules/**/*.ts\"",
-    "pretest": "npm run review && npm run build",
-    "test": "alsatian \"**/*.spec.js\"",
+    "pretest": "npm run build",
+    "test": "npm run review && npm run unit-tests",
+    "unit-tests": "nyc --reporter=lcov --reporter=html alsatian \"./**/*.spec.js\" && nyc report",
     "prepublish": "npm test"
   },
   "repository": {
