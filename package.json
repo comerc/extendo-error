@@ -1,6 +1,6 @@
 {
   "name": "extendo-error",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Safely and simply extend native Error with prototype chaining support",
   "main": "src/extendo-error.js",
   "typings": "src/extendo-error.d.ts",
