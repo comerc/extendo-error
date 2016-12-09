@@ -1,6 +1,16 @@
 # extendo-error
 Safely and simply extend native Error with prototype chaining support
 
+[![npm](https://img.shields.io/npm/v/extendo-error.svg)](https://www.npmjs.com/package/extendo-error)
+[![license](https://img.shields.io/github/license/jamesrichford/extendo-error.svg)](https://github.com/jamesrichford/extendo-error/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/jamesrichford/extendo-error.svg?branch=master)](https://travis-ci.org/jamesrichford/extendo-error)
+[![Coverage Status](https://coveralls.io/repos/github/jamesrichford/extendo-error/badge.svg?branch=master)](https://coveralls.io/github/jamesrichford/extendo-error?branch=master)
+[![Known Vulnerabilities](https://snyk.io/test/github/jamesrichford/extendo-error/badge.svg)](https://snyk.io/test/github/jamesrichford/extendo-error)
+[![Code Climate](https://codeclimate.com/github/jamesrichford/extendo-error/badges/gpa.svg)](https://codeclimate.com/github/jamesrichford/extendo-error)
+[![Issue Count](https://codeclimate.com/github/jamesrichford/extendo-error/badges/issue_count.svg)](https://codeclimate.com/github/jamesrichford/extendo-error)
+[![bitHound Code](https://www.bithound.io/github/jamesrichford/extendo-error/badges/code.svg)](https://www.bithound.io/github/jamesrichford/extendo-error)
+[![bitHound Dependencies](https://www.bithound.io/github/jamesrichford/extendo-error/badges/dependencies.svg)](https://www.bithound.io/github/jamesrichford/extendo-error/master/dependencies/npm)
+
 # What is it?
 
 Allows you to extend the native Error type whilst keeping the ability to have a setable message through constructor and resolving the name correctly.
