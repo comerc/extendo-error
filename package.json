@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Safely and simply extend native Error with prototype chaining support",
   "main": "src/extendo-error.js",
+  "typings": "src/extendo-error.d.ts",
   "scripts": {
     "build": "tsc",
     "pretest": "npm run build",
