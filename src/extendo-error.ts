@@ -14,6 +14,7 @@ export default class ExtendoError implements Error {
 
     public constructor(message?: string) {
         this._message = message;
-        (<any>Object).setPrototypeOf(ExtendoError.prototype, Error.prototype);
     }
 }
+
+(<any>Object).setPrototypeOf(ExtendoError.prototype, Error.prototype);
