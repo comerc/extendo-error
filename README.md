@@ -27,7 +27,7 @@ See [this](https://github.com/Microsoft/TypeScript-wiki/blob/master/Breaking-Cha
 Install it
 
 ```
-npm instal extendo-error --save
+npm install extendo-error --save
 ```
 
 Import it and extend it
